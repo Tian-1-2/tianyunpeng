@@ -54,6 +54,52 @@
   
   
   <entry>
+    <title>第三次尝试</title>
+    <link href="/2022/10/13/20221013-%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%B0%9D%E8%AF%95/"/>
+    <url>/2022/10/13/20221013-%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%B0%9D%E8%AF%95/</url>
+    
+    <content type="html"><![CDATA[<p>6666666666666666</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>测试类</category>
+      
+      <category>测试分类</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>自由 Games</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客搭建与更新</title>
+    <link href="/2022/10/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <url>/2022/10/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h4 id="如何搭建博客"><a href="#如何搭建博客" class="headerlink" title="如何搭建博客"></a>如何搭建博客</h4><p>搭建博客主教程：</p><p><a href="https://www.cnblogs.com/huanhao/p/hexobase.html#%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0%E7%9A%84%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7">https://www.cnblogs.com/huanhao/p/hexobase.html#%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0%E7%9A%84%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7</a></p><p>部署到gitee：</p><p><a href="https://blog.csdn.net/qq_60700961/article/details/125978581?ops_request_misc=&request_id=&biz_id=102&utm_term=%E5%9C%A8gitte%E4%B8%8A%E9%83%A8%E7%BD%B2Hexo%E5%8D%9A%E5%AE%A2&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-125978581.142">https://blog.csdn.net/qq_60700961&#x2F;article&#x2F;details&#x2F;125978581?ops_request_misc&#x3D;&amp;request_id&#x3D;&amp;biz_id&#x3D;102&amp;utm_term&#x3D;%E5%9C%A8gitte%E4%B8%8A%E9%83%A8%E7%BD%B2Hexo%E5%8D%9A%E5%AE%A2&amp;utm_medium&#x3D;distribute.pc_search_result.none-task-blog-2<del>all</del>sobaiduweb~default-1-125978581.142</a>^v52^js_top,201^v3^control_1&amp;spm&#x3D;1018.2226.3001.4187</p><p>Fluid主题配置信息：</p><p><a href="https://hexo.fluid-dev.com/docs/guide/">https://hexo.fluid-dev.com/docs/guide/</a></p><h4 id="更新博客"><a href="#更新博客" class="headerlink" title="更新博客"></a>更新博客</h4><p>hexo g -d上传远程仓库</p><p>hexo s 启动</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>各种配置/博客</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title></title>
     <link href="/2022/10/11/%E8%BF%99%E5%B0%B1%E6%98%AF%E6%9C%AA%E6%9D%A5/"/>
     <url>/2022/10/11/%E8%BF%99%E5%B0%B1%E6%98%AF%E6%9C%AA%E6%9D%A5/</url>

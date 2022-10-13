@@ -16,15 +16,15 @@
   <meta name="author" content="田云鹏">
   <meta name="keywords" content="">
   
-    <meta name="description" content="对于一行文本多余部分用省略号代替，常用下面的方法： 123text-overflow: ellipsis;overflow: hidden;white-space:nowrap;    对于两行或者多行常用下面的方法： text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -w">
+    <meta name="description" content="对于一行文本多余部分用省略号代替，常用下面的方法： 123text-overflow: ellipsis;overflow: hidden;white-space:nowrap;    对于两行或者多行常用下面的方法： 12345text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-">
 <meta property="og:type" content="article">
 <meta property="og:title" content="css文本一行或者多行多余部分用省略号代替">
 <meta property="og:url" content="http://tian-1-2.github.io/typblog.github.io/2022/02/13/%E5%A4%9A%E4%BD%99%E6%96%87%E6%9C%AC%E7%9C%81%E7%95%A5/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="对于一行文本多余部分用省略号代替，常用下面的方法： 123text-overflow: ellipsis;overflow: hidden;white-space:nowrap;    对于两行或者多行常用下面的方法： text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -w">
+<meta property="og:description" content="对于一行文本多余部分用省略号代替，常用下面的方法： 123text-overflow: ellipsis;overflow: hidden;white-space:nowrap;    对于两行或者多行常用下面的方法： 12345text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-02-13T07:43:25.000Z">
-<meta property="article:modified_time" content="2022-10-13T06:42:45.886Z">
+<meta property="article:modified_time" content="2022-10-13T06:45:36.342Z">
 <meta property="article:author" content="田云鹏">
 <meta property="article:tag" content="css">
 <meta name="twitter:card" content="summary_large_image">
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          259 字
+          264 字
         
       </span>
     
@@ -278,12 +278,7 @@
 
 
 <p> 对于两行或者多行常用下面的方法：</p>
-<pre><code class="hljs">text-overflow: ellipsis;
-overflow: hidden;
-display: -webkit-box;
--webkit-line-clamp: 2;
--webkit-box-orient: vertical;
-</code></pre>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-attribute">text-overflow</span>: ellipsis;<br><span class="hljs-attribute">overflow</span>: hidden;<br><span class="hljs-attribute">display</span>: -webkit-box;<br>-webkit-line-clamp: <span class="hljs-number">2</span>;<br>-webkit-box-orient: vertical;<br></code></pre></td></tr></table></figure>
 <p>这里设置的是两行文本，更改-webkit-line-clamp的值可以设置多行文本的多余部分省略。</p>
 
                 

@@ -56,31 +56,6 @@
   
   
   <entry>
-    <title>第一次尝试</title>
-    <link href="/typblog.github.io/2022/10/13/%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88/"/>
-    <url>/typblog.github.io/2022/10/13/%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88/</url>
-    
-    <content type="html"><![CDATA[<h1 id="哈哈哈哈哈"><a href="#哈哈哈哈哈" class="headerlink" title="哈哈哈哈哈"></a>哈哈哈哈哈</h1><h2 id="第二次尝试"><a href="#第二次尝试" class="headerlink" title="第二次尝试"></a>第二次尝试</h2><p>大河之水天上来</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>测试类</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>自由 Games</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>博客搭建与更新</title>
     <link href="/typblog.github.io/2022/10/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     <url>/typblog.github.io/2022/10/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
@@ -93,32 +68,6 @@
       <category>各种配置/博客</category>
       
     </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title></title>
-    <link href="/typblog.github.io/2022/10/11/%E8%BF%99%E5%B0%B1%E6%98%AF%E6%9C%AA%E6%9D%A5/"/>
-    <url>/typblog.github.io/2022/10/11/%E8%BF%99%E5%B0%B1%E6%98%AF%E6%9C%AA%E6%9D%A5/</url>
-    
-    <content type="html"><![CDATA[<p><img src="D:\img\v2-9cbd5003e65d0b9c0e6937e84966dc3f_r.jpg"></p><h1 id="这就是未来5555555555555"><a href="#这就是未来5555555555555" class="headerlink" title="这就是未来5555555555555"></a>这就是未来5555555555555</h1>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/typblog.github.io/2022/10/11/hello-world/"/>
-    <url>/typblog.github.io/2022/10/11/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
     
     
   </entry>
@@ -193,6 +142,31 @@
     <tags>
       
       <tag>JS</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>css文本一行或者多行多余部分用省略号代替</title>
+    <link href="/typblog.github.io/2022/02/13/%E5%A4%9A%E4%BD%99%E6%96%87%E6%9C%AC%E7%9C%81%E7%95%A5/"/>
+    <url>/typblog.github.io/2022/02/13/%E5%A4%9A%E4%BD%99%E6%96%87%E6%9C%AC%E7%9C%81%E7%95%A5/</url>
+    
+    <content type="html"><![CDATA[<p>对于一行文本多余部分用省略号代替，常用下面的方法：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-attribute">text-overflow</span>: ellipsis;<br><span class="hljs-attribute">overflow</span>: hidden;<br><span class="hljs-attribute">white-space</span>:nowrap;<br></code></pre></td></tr></table></figure><p> 对于两行或者多行常用下面的方法：</p><pre><code class="hljs">text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;</code></pre><p>这里设置的是两行文本，更改-webkit-line-clamp的值可以设置多行文本的多余部分省略。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>测试类</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>自由 Games</tag>
       
     </tags>
     

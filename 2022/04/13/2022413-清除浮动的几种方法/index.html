@@ -16,24 +16,29 @@
   <meta name="author" content="田云鹏">
   <meta name="keywords" content="">
   
-    <meta name="description" content="再去雨花台刚从雨花台回来，想躺下睡个觉，想了一会，我怕一觉睡到天黑，算了不睡了，忽然想到要不写点什么？高中时期书生意气，最想动笔写些什么，可是想来想去没有任何经历，能写些什么呢？到最后变成了空文。大学时期，时间有了，经历有了，可是心境却变了。如今，实在没事干的我终于想提起笔写些什么了，不对，如今我也早把笔换成了键盘，更没有提笔这一说了，只能说键来哈哈哈哈。 时隔六年，我再次来到了雨花台。记忆已经有">
+    <meta name="description" content="在清除浮动之前我们需要了解为什么要清除浮动 浮动的定义：非ie浏览器下，容器不设高度且子元素浮动时，容器布局不能被内容撑开，此时内容会溢出到容器外面而影响布局，这种现象被称为浮动 而清除浮动主要是为了解决，父元素因为子级元素浮动引起的内部高度为0的问题，即高度塌陷 下面就是在子元素都添加了浮动后，引起父元素的高度塌陷：           chrild1         chrild2">
 <meta property="og:type" content="article">
-<meta property="og:title" content="再去雨花台">
-<meta property="og:url" content="http://tian-1-2.github.io/typblog.github.io/2022/10/07/2022107-%E5%86%8D%E5%8E%BB%E9%9B%A8%E8%8A%B1%E5%8F%B0/index.html">
+<meta property="og:title" content="清除浮动的几种方法">
+<meta property="og:url" content="http://tian-1-2.github.io/typblog.github.io/2022/04/13/2022413-%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="再去雨花台刚从雨花台回来，想躺下睡个觉，想了一会，我怕一觉睡到天黑，算了不睡了，忽然想到要不写点什么？高中时期书生意气，最想动笔写些什么，可是想来想去没有任何经历，能写些什么呢？到最后变成了空文。大学时期，时间有了，经历有了，可是心境却变了。如今，实在没事干的我终于想提起笔写些什么了，不对，如今我也早把笔换成了键盘，更没有提笔这一说了，只能说键来哈哈哈哈。 时隔六年，我再次来到了雨花台。记忆已经有">
+<meta property="og:description" content="在清除浮动之前我们需要了解为什么要清除浮动 浮动的定义：非ie浏览器下，容器不设高度且子元素浮动时，容器布局不能被内容撑开，此时内容会溢出到容器外面而影响布局，这种现象被称为浮动 而清除浮动主要是为了解决，父元素因为子级元素浮动引起的内部高度为0的问题，即高度塌陷 下面就是在子元素都添加了浮动后，引起父元素的高度塌陷：           chrild1         chrild2">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://tian-1-2.github.io/typblog.github.io/img/lifeimage/yuhuatai.jpg">
-<meta property="article:published_time" content="2022-10-07T09:17:25.000Z">
-<meta property="article:modified_time" content="2022-10-12T09:06:07.159Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/285cc0eb94254b6a85e5a4412bb01668.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/3ba3b84db9294e40a0bc60ecc3705c8d.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png">
+<meta property="article:published_time" content="2022-04-13T12:46:25.000Z">
+<meta property="article:modified_time" content="2022-10-13T06:14:32.543Z">
 <meta property="article:author" content="田云鹏">
-<meta property="article:tag" content="JS">
+<meta property="article:tag" content="css">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://tian-1-2.github.io/typblog.github.io/img/lifeimage/yuhuatai.jpg">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/285cc0eb94254b6a85e5a4412bb01668.png">
   
   
   
-  <title>再去雨花台 - Hexo</title>
+  <title>清除浮动的几种方法 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -192,13 +197,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/typblog.github.io/img/lifeimage/yuhuatai.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/typblog.github.io/img/bg/diyige.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="再去雨花台"></span>
+            <span id="subtitle" data-typed-text="清除浮动的几种方法"></span>
           
         </div>
 
@@ -209,8 +214,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-10-07 17:17" pubdate>
-          2022年10月7日 下午
+        <time datetime="2022-04-13 20:46" pubdate>
+          2022年4月13日 晚上
         </time>
       </span>
     
@@ -221,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.2k 字
+          1.6k 字
         
       </span>
     
@@ -232,7 +237,7 @@
         
         
         
-          10 分钟
+          14 分钟
         
       </span>
     
@@ -270,18 +275,71 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">再去雨花台</h1>
+            <h1 style="display: none">清除浮动的几种方法</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="再去雨花台"><a href="#再去雨花台" class="headerlink" title="再去雨花台"></a>再去雨花台</h2><p>刚从雨花台回来，想躺下睡个觉，想了一会，我怕一觉睡到天黑，算了不睡了，忽然想到要不写点什么？<br>高中时期书生意气，最想动笔写些什么，可是想来想去没有任何经历，能写些什么呢？到最后变成了空文。<br>大学时期，时间有了，经历有了，可是心境却变了。如今，实在没事干的我终于想提起笔写些什么了，不对，如今我也早把笔换成了键盘，更没有提笔这一说了，只能说键来哈哈哈哈。</p>
-<p>时隔六年，我再次来到了雨花台。<br>记忆已经有些模糊了，许多地方我都看着特别陌生，不知道是这六年期间雨花台是新建了景点，还是我当时没有注意到，或是我就已经完全遗忘了。<br>刚进去，一阵桂花香扑过来，完蛋了。我把口罩摘下来，我不管，我不管，我就要闻，我太爱桂花了。之前学习在新乡园区偶然闻到了桂花香，可是找了好久都没找到。今天终于让我逮住了吧。<br>接着往前路，一个上坡的柏油路，两边还有参天的梧桐树，这个印象倒挺深，六年前好像谁的钥匙什么的掉了在这找，具体的也记不清了。其实印象最深的就是纪念碑了吧，纪念碑下有许多白鸽，当年是谁拿着食物喂它们，然后身上站满了白鸽。<br>可是今天过去的时候，没有见到一个白鸽，不知道是因为习性现在不是在这的时候，还是这已经根本已经没有白鸽了。<br>我靠着栏杆，翻了翻我以前的照片，看着我青雉的脸，简直就像跨时空与六年前的我进行交流，当时的我可能想都没想过，六年后我会再次站到这。<br>然后我再往前走，我发现了我记忆中没有出现的景点，真的一点印象都没有，真的怀疑我是不是没来过这个地方，下面的放了几张图片，高一的同学帮我回想一下，这些当时真的有吗？</p>
-<p>时隔六年，倒是不如说我再次来到了南京。<br>上次是旅游，这次是工作。仿佛就是理想面对了现实。<br>来的第一天，不行，我自己一个人太孤独了我要回去我待不下去了。<br>来的第二天，算了凑合一个月吧，把房租挣回来。<br>来的第三天，算了干到过年吧，再忍忍吧。<br>终究感觉自己还是败给了现实。等到正式上班会好一点了是吧，对吧会好一些。<br>我也又去旅游了，我去景点转了，可是感觉就是不一样了。来之前我认为我把之前转过的景点再转一遍感觉很有意义。<br>但是目前我已经感觉不到了，<br>六年前我感觉哪都可新鲜，想到处跑<br>六年后我只感觉到累，我想快速的走过去。<br>即便会偶尔勾起我的回忆，但其实并不快乐。<br>计划提前终止，剩下的景区，等以后想去了再慢慢转吧。</p>
-<p>之前看大冰书，天天听大冰说：“不要那么孤独，这世界上真的有人过着你想过的生活。”<br>……<br>然后呢？突然感觉很讽刺。</p>
-<p>我感觉我是个理想主义者，理想会照进现实。可是理想真正的到了现实，却发现这好像不是当初的理想了。<br>也有人说我感性，但因此犹犹豫豫患得患失做错了好多选择。</p>
-<p>会后悔吗，当然会<br>那为什么还要走，因为到死之前我们都是需要发育的孩子（狗头）。<br>为什么突然不悲观了，因为刚刚歌曲循环到张韶涵的《篇章》了，燃起来了哈哈哈哈</p>
-<p>命运深处涌动着更多浪漫<br>梦想破土生长更多答案<br>繁星背后太阳已开始绚烂<br>谢谢你与我作伴</p>
+                <p><strong>在清除浮动之前我们需要了解为什么要清除浮动</strong></p>
+<p>浮动的定义：非ie浏览器下，容器不设高度且子元素浮动时，容器布局不能被内容撑开，此时内容会溢出到容器外面而影响布局，这种现象被称为浮动</p>
+<p>而清除浮动主要是为了解决，父元素因为子级元素浮动引起的内部高度为0的问题，即高度塌陷</p>
+<p>下面就是在子元素都添加了浮动后，引起父元素的高度塌陷：</p>
+<p><img src="https://img-blog.csdnimg.cn/285cc0eb94254b6a85e5a4412bb01668.png" srcset="/typblog.github.io/img/loading.gif" lazyload alt="img"></p>
+<div class="father">
+        <div class="chrild1">chrild1</div>
+        <div class="chrild2">chrild2</div>
+        <div class="chrild3">chrild3</div>
+</div>
+<style>
+        .father{
+            width: 500px;
+            border: 2px solid rgb(240, 9, 9);
+        }
+        .chrild1{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            float: left;
+        }
+        .chrild2{
+            width: 200px;
+            height: 100px;
+            background-color: chartreuse;
+            float: left;
+        }
+        .chrild3{
+            width: 400px;
+            height: 100px;
+            background-color: rgb(231, 17, 156);
+            float: left;
+        }
+    </style>
+ 接下来进入正题介绍清除浮动的方法
+
+<h5 id="1-给父级元素定义height属性"><a href="#1-给父级元素定义height属性" class="headerlink" title="1.给父级元素定义height属性"></a>1.给父级元素定义height属性</h5><p>缺点： 需要手动添加高度，如何后面的高度发生变化，还要再次修改高度，给后期的维护带来麻烦。</p>
+<p><img src="https://img-blog.csdnimg.cn/3ba3b84db9294e40a0bc60ecc3705c8d.png" srcset="/typblog.github.io/img/loading.gif" lazyload alt="img"></p>
+<p><code>.father</code>{<code>             </code>width: 500px;<code>             </code>border: 2px solid rgb(240, 9, 9);<code>             </code>height: 600px;<code>         &#125;</code></p>
+<h5 id="2-最后一个浮动元素之后添加一个空的div标签，并添加clear：both样式"><a href="#2-最后一个浮动元素之后添加一个空的div标签，并添加clear：both样式" class="headerlink" title="2.最后一个浮动元素之后添加一个空的div标签，并添加clear：both样式"></a>2.最后一个浮动元素之后添加一个空的div标签，并添加clear：both样式</h5><p>clear：both的作用是不允许周围有浮动现象</p>
+<p>缺点：结构化比较差，对于比较复杂的页面就显得结构非常的乱。</p>
+<p><img src="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png" srcset="/typblog.github.io/img/loading.gif" lazyload alt="img"></p>
+<p><code>.chrild4&#123;</code><br>            <code>clear: both;</code><br>        <code>&#125;</code></p>
+<p>&#96;&#96; </p>
+<p><code>&lt;div class=&quot;father&quot;&gt;         &lt;div class=&quot;chrild1&quot;&gt;chrild1&lt;/div&gt;         &lt;div class=&quot;chrild2&quot;&gt;chrild2&lt;/div&gt;         &lt;div class=&quot;chrild3&quot;&gt;chrild3&lt;/div&gt;         &lt;div class=&quot;chrild4&quot;&gt;&lt;/div&gt; ​    &lt;/div&gt;</code></p>
+<h5 id="3-触发BFC，在父元素中添加overflow"><a href="#3-触发BFC，在父元素中添加overflow" class="headerlink" title="3.触发BFC，在父元素中添加overflow"></a>3.触发BFC，在父元素中添加overflow</h5><p>缺点：内容增多的时候容易造成不会自动换行导致内容被隐藏掉，无法显示要溢出的元素。</p>
+<p><img src="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png" srcset="/typblog.github.io/img/loading.gif" lazyload alt="img"></p>
+<p><code>.father</code>{<code>             </code>width: 500px;<code>             </code>border: 2px solid rgb(240, 9, 9);<code>             </code>overflow: hidden;<code>         &#125;</code></p>
+<h5 id="4-使用after伪元素清除浮动（较推荐）"><a href="#4-使用after伪元素清除浮动（较推荐）" class="headerlink" title="4.使用after伪元素清除浮动（较推荐）"></a>4.使用after伪元素清除浮动（较推荐）</h5><p>利用after伪元素定义一个clearfix类，浮动元素的父级元素调用此类可以实现清除浮动的效果</p>
+<p><img src="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png" srcset="/typblog.github.io/img/loading.gif" lazyload alt="img"></p>
+<p><code>.clearfix::after &#123;</code><br>        <code>content: &quot;&quot;;</code><br>        <code>display: table;</code><br>        <code>height: 0;</code><br>        <code>clear:both;</code><br>        <code>visibility: hidden;</code><br><code>&#125;</code></p>
+<p>&#96;<div class="father clearfix"></p>
+<pre><code class="hljs">    &lt;div class=&quot;chrild1&quot;&gt;chrild1&lt;/div&gt;
+    &lt;div class=&quot;chrild2&quot;&gt;chrild2&lt;/div&gt;
+    &lt;div class=&quot;chrild3&quot;&gt;chrild3&lt;/div&gt;
+    &lt;div class=&quot;chrild4&quot;&gt;&lt;/div&gt;
+</code></pre>
+</div>`
+
+<h5 id="5-使用后before和after双伪元素清除浮动（较推荐）"><a href="#5-使用后before和after双伪元素清除浮动（较推荐）" class="headerlink" title="5.使用后before和after双伪元素清除浮动（较推荐）"></a>5.使用后before和after双伪元素清除浮动（较推荐）</h5><p><img src="https://img-blog.csdnimg.cn/a758f281eedd48eea75d77f0247d6158.png" srcset="/typblog.github.io/img/loading.gif" lazyload alt="img"><code>.clearf</code>ix:after,.clearfix:before{content: “”;display: table;clear: both;<code>         &#125;</code></p>
 
                 
               </div>
@@ -300,7 +358,7 @@
     
       <span class="category-chain">
         
-  <a href="/typblog.github.io/categories/JS/" class="category-chain-item">JS</a>
+  <a href="/typblog.github.io/categories/css/" class="category-chain-item">css</a>
   
   
 
@@ -315,7 +373,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/typblog.github.io/tags/JS/">#JS</a>
+        <a href="/typblog.github.io/tags/css/">#css</a>
       
     </div>
   
@@ -327,8 +385,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>再去雨花台</div>
-      <div>http://tian-1-2.github.io/typblog.github.io/2022/10/07/2022107-再去雨花台/</div>
+      <div>清除浮动的几种方法</div>
+      <div>http://tian-1-2.github.io/typblog.github.io/2022/04/13/2022413-清除浮动的几种方法/</div>
     </div>
     <div class="license-meta">
       
@@ -340,7 +398,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年10月7日</div>
+          <div>2022年4月13日</div>
         </div>
       
       
@@ -372,9 +430,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/typblog.github.io/2022/10/11/hello-world/" title="Hello World">
+                      <a href="/typblog.github.io/2022/10/07/2022107-%E5%86%8D%E5%8E%BB%E9%9B%A8%E8%8A%B1%E5%8F%B0/" title="再去雨花台">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Hello World</span>
+                        <span class="hidden-mobile">再去雨花台</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -382,8 +440,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/typblog.github.io/2022/04/13/2022413-%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/" title="清除浮动的几种方法">
-                        <span class="hidden-mobile">清除浮动的几种方法</span>
+                      <a href="/typblog.github.io/2022/04/13/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/" title="数组的常用方法">
+                        <span class="hidden-mobile">数组的常用方法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
